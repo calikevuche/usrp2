@@ -1,0 +1,15 @@
+# Output products list for <cordic_in>
+_xmsgs\pn_parser.xmsgs
+cordic_in.asy
+cordic_in.gise
+cordic_in.ngc
+cordic_in.sym
+cordic_in.v
+cordic_in.veo
+cordic_in.vhd
+cordic_in.vho
+cordic_in.xco
+cordic_in.xise
+cordic_in_flist.txt
+cordic_in_readme.txt
+cordic_in_xmdf.tcl

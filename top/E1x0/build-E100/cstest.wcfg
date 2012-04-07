@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cs_component_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/cs_component_tb/strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">strobe</obj_property>
+      <obj_property name="ObjectShortName">strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/present" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">present</obj_property>
+      <obj_property name="ObjectShortName">present</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/real_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">real_value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">real_value[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/img_value" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">img_value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">img_value[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/cic_strober/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[8:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u1_r_samples/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u1_r_samples/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u2_i_samples/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u2_i_samples/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u3_iq_mag/x_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_in[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u3_iq_mag/y_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y_in[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u3_iq_mag/x_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">x_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">x_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/accumulator_in_sample/A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut1/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/accumulator_in_sample/ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/accumulator_in_sample/accum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">accum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">accum[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u8_compare_threshold/A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u8_compare_threshold/B_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">B_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B_out[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cs_component_tb/uut/uut2/u1_r_samples/wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,72 @@
+Release 13.2 ngdbuild O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: /data/Xilinx/13.2/ISE_DS/ISE/bin/lin/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -sd ../../../coregen -sd ../../../extramfifo -nt timestamp -uc
+/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/u2plus.ucf -p xc3sd3400a-fg676-5
+u2plus.ngc u2plus.ngd
+
+Reading NGO file
+"/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/build-N210R3/u2plus.ngc" ...
+Loading design module "../../../coregen/fifo_xlnx_16x40_2clk.ngc"...
+Loading design module "../../../coregen/fifo_xlnx_2Kx36_2clk.ngc"...
+Loading design module "../../../coregen/fifo_xlnx_512x36_2clk.ngc"...
+Loading design module "../../../coregen/fifo_xlnx_512x36_2clk_prog_full.ngc"...
+Loading design module "../../../coregen/fifo_xlnx_32x36_2clk.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/u2plus.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'clk_fpga_p', used in period specification
+   'TS_clk_fpga_p', was traced into DCM_SP instance DCM_SP. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLK0: <TIMESPEC TS_dcm_out = PERIOD "dcm_out" TS_clk_fpga_p HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_fpga_p', used in period specification
+   'TS_clk_fpga_p', was traced into DCM_SP instance DCM_SP. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLK270: <TIMESPEC TS_clk270_100 = PERIOD "clk270_100" TS_clk_fpga_p PHASE 7.5
+   ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'clk_fpga_p', used in period specification
+   'TS_clk_fpga_p', was traced into DCM_SP instance DCM_SP. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLKDV: <TIMESPEC TS_clk_div = PERIOD "clk_div" TS_clk_fpga_p * 2 HIGH 50%>
+
+Done...
+
+INFO:NgdBuild:1222 - Setting CLKIN_PERIOD attribute associated with DCM instance
+   DCM_SP to 10.000000 ns based on the period specification (<TIMESPEC
+   "TS_clk_fpga_p" = PERIOD "clk_fpga_p" 10 ns HIGH 50 %;>
+   [/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/u2plus.ucf(408)]).
+Checking expanded design ...
+WARNING:NgdBuild:486 - Attribute "DOA_REG" is not allowed on symbol
+   "U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/s3_noinit.ram/dpram.dp36x36.ram" of type "RAMB16_S36_S36".  This
+   attribute will be ignored.
+WARNING:NgdBuild:486 - Attribute "DOB_REG" is not allowed on symbol
+   "U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[
+   0].ram.r/s3_noinit.ram/dpram.dp36x36.ram" of type "RAMB16_S36_S36".  This
+   attribute will be ignored.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   2
+
+Total memory usage is 220884 kilobytes
+
+Writing NGD file "u2plus.ngd" ...
+Total REAL time to NGDBUILD completion:  58 sec
+Total CPU time to NGDBUILD completion:   57 sec
+
+Writing NGDBUILD log file "u2plus.bld"...

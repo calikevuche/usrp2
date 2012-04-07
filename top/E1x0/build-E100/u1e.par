@@ -1,0 +1,294 @@
+Release 13.1 par O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+EPOXYTHEORY-PC::  Thu Feb 16 10:25:52 2012
+
+par -w -intstyle ise -ol high -t 1 u1e_map.ncd u1e.ncd u1e.pcf 
+
+
+Constraints file: u1e.pcf.
+Loading device for application Rf_Device from file '3sd1800a.nph' in environment C:\Xilinx\13.1\ISE_DS\ISE\.
+   "u1e" is an NCD, version 3.2, device xc3sd1800a, package cs484, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.33 2011-02-03".
+
+
+
+Design Summary Report:
+
+ Number of External IOBs                         195 out of 309    63%
+
+   Number of External Input IOBs                 71
+
+      Number of External Input DIFFMIs            1
+        Number of LOCed External Input DIFFMIs    1 out of 1     100%
+
+      Number of External Input DIFFSIs            1
+        Number of LOCed External Input DIFFSIs    1 out of 1     100%
+
+      Number of External Input IBUFs             69
+        Number of LOCed External Input IBUFs     69 out of 69    100%
+
+
+   Number of External Output IOBs                74
+
+      Number of External Output IOBs             74
+        Number of LOCed External Output IOBs     74 out of 74    100%
+
+
+   Number of External Bidir IOBs                 50
+
+      Number of External Bidir IOBs              50
+        Number of LOCed External Bidir IOBs      50 out of 50    100%
+
+
+   Number of BSCANs                          1 out of 1     100%
+   Number of BUFGMUXs                        3 out of 24     12%
+   Number of DSP48As                        24 out of 84     28%
+   Number of RAMB16BWERs                    76 out of 84     90%
+   Number of Slices                      13464 out of 16640  80%
+      Number of SLICEMs                   1500 out of 8320   18%
+
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 mins 33 secs 
+Finished initial Timing Analysis.  REAL time: 1 mins 36 secs 
+
+WARNING:Par:288 - The signal EM_WAIT0_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio0_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio21_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio22_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio14_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio23_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio64_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal RXSYNC_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal EM_NCS5_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio127_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio170_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio163_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal overo_gpio176_IBUF has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 112568 unrouted;      REAL time: 2 mins 24 secs 
+
+Phase  2  : 96634 unrouted;      REAL time: 2 mins 32 secs 
+
+Phase  3  : 29658 unrouted;      REAL time: 3 mins 19 secs 
+
+Phase  4  : 30005 unrouted; (Setup:2506339, Hold:0, Component Switching Limit:0)     REAL time: 4 mins 24 secs 
+
+Phase  5  : 0 unrouted; (Setup:2437905, Hold:0, Component Switching Limit:0)     REAL time: 6 mins 52 secs 
+
+Updating file: u1e.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:2437905, Hold:0, Component Switching Limit:0)     REAL time: 7 mins 40 secs 
+
+Phase  7  : 0 unrouted; (Setup:2437905, Hold:0, Component Switching Limit:0)     REAL time: 8 mins 28 secs 
+
+Phase  8  : 0 unrouted; (Setup:2437905, Hold:0, Component Switching Limit:0)     REAL time: 8 mins 38 secs 
+
+Phase  9  : 0 unrouted; (Setup:2415241, Hold:0, Component Switching Limit:0)     REAL time: 9 mins 23 secs 
+WARNING:Route:455 - CLK Net:u1e_core/dsp_core_rx0/round_i/add2_and_clip_reg/strobe_out may have excessive skew because 
+      114 CLK pins and 10 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:icon_control0<13> may have excessive skew because 
+      1 CLK pins and 4 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 9 mins 25 secs 
+Total CPU time to Router completion: 8 mins 17 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|            clk_fpga |  BUFGMUX_X2Y1| No   |10638 |  0.394     |  1.864      |
++---------------------+--------------+------+------+------------+-------------+
+|    icon_control0<0> | BUFGMUX_X1Y10| No   |  164 |  0.203     |  1.681      |
++---------------------+--------------+------+------+------------+-------------+
+|        EM_CLK_BUFGP | BUFGMUX_X2Y11| No   |   31 |  0.166     |  1.644      |
++---------------------+--------------+------+------+------------+-------------+
+|u1e_core/dsp_core_rx |              |      |      |            |             |
+|0/round_i/add2_and_c |              |      |      |            |             |
+|  lip_reg/strobe_out |         Local|      |  679 |  4.742     |  6.783      |
++---------------------+--------------+------+------+------------+-------------+
+|U_icon_pro/U0/iUPDAT |              |      |      |            |             |
+|               E_OUT |         Local|      |    1 |  0.000     |  2.247      |
++---------------------+--------------+------+------+------------+-------------+
+|   icon_control0<13> |         Local|      |    5 |  0.000     |  1.525      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+Timing Score: 2415241 (Setup: 2415241, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
+   your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to
+   ensure the best options are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Number of Timing Constraints that were not applied: 3
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_clk_fpga_p = PERIOD TIMEGRP "CLK_FPGA_ | SETUP       |   -51.997ns|    67.622ns|     201|     2415241
+  P" 15.625 ns HIGH 50%                     | HOLD        |     0.534ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_10_IBUF" MAXDELAY = 5.5 ns      | MAXDELAY    |     0.097ns|     5.403ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_NCS4_IBUF" MAXDELAY = 5.5 ns      | MAXDELAY    |     0.101ns|     5.399ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_3_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     0.158ns|     5.342ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_5_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     0.571ns|     4.929ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_6_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     0.595ns|     4.905ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_7_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     1.582ns|     3.918ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_2_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     1.612ns|     3.888ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_4_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     1.646ns|     3.854ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_9_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     1.763ns|     3.737ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_1_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     2.054ns|     3.446ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_A_8_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     2.242ns|     3.258ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_em_clk = PERIOD TIMEGRP "EM_CLK" 12.04 | SETUP       |     2.371ns|     9.677ns|       0|           0
+  8 ns HIGH 50%                             | HOLD        |     0.998ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_NWE_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     2.856ns|     2.644ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_NOE_IBUF" MAXDELAY = 5.5 ns       | MAXDELAY    |     3.696ns|     1.804ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_NCS6_IBUF" MAXDELAY = 5.5 ns      | MAXDELAY    |     3.849ns|     1.651ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_NBE_1_IBUF" MAXDELAY = 5.5 ns     | MAXDELAY    |     4.322ns|     1.178ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_NBE_0_IBUF" MAXDELAY = 5.5 ns     | MAXDELAY    |     4.525ns|     0.975ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<0>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<1>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<2>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<3>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<4>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<5>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<6>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<15>" MAXDELAY = 5.5 ns          | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<14>" MAXDELAY = 5.5 ns          | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<13>" MAXDELAY = 5.5 ns          | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<12>" MAXDELAY = 5.5 ns          | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<11>" MAXDELAY = 5.5 ns          | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<10>" MAXDELAY = 5.5 ns          | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<9>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<8>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "EM_D<7>" MAXDELAY = 5.5 ns           | MAXDELAY    |     5.500ns|     0.000ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |     9.057ns|     5.943ns|       0|           0
+   TO TIMEGRP "J_CLK" 15 ns                 | HOLD        |     2.141ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    10.202ns|    19.798ns|       0|           0
+  IGH 50%                                   | HOLD        |     0.945ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    13.469ns|     1.531ns|       0|           0
+   TO TIMEGRP "U_CLK" 15 ns                 | HOLD        |     1.089ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  NET "overo_gpio144" MAXDELAY = 5.5 ns     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  NET "overo_gpio146" MAXDELAY = 5.5 ns     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  NET "overo_gpio147" MAXDELAY = 5.5 ns     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|    12.521ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D_TO_J_path" TIG                 | SETUP       |         N/A|     6.647ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+
+
+1 constraint not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 13 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 10 mins 3 secs 
+Total CPU time to PAR completion: 8 mins 43 secs 
+
+Peak Memory Usage:  583 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+Timing: Completed - 201 errors found.
+
+Number of error messages: 0
+Number of warning messages: 18
+Number of info messages: 0
+
+Writing design to file u1e.ncd
+
+
+
+PAR done!

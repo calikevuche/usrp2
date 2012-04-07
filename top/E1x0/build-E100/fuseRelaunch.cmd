@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb_isim_beh.exe" -prj "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb_beh.prj" "work.cs_component_tb" "work.glbl" 

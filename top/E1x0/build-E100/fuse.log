@@ -1,0 +1,64 @@
+Running: C:\Xilinx\13.1\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb_isim_beh.exe -prj C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb_beh.prj work.cs_component_tb work.glbl 
+ISim O.40d (signature 0x79f3f3a8)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/../../../coregen/fifo_xlnx_32x36_2clk.v\" into library work
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/fifo_in.v\" into library work
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cordic_in.v\" into library work
+WARNING:HDLCompiler:687 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cordic_in.v" Line 21531: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/comparator_component.v\" into library work
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/accumulator_in_xst.v\" into library work
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_fsm.v\" into library work
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_component.v\" into library work
+WARNING:HDLCompiler:114 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_component.v" Line 214: /* in comment
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component.v\" into library work
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/../../../sdr_lib/cic_strober.v\" into library work
+Analyzing Verilog file \"C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/13.1/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+WARNING:HDLCompiler:687 - "C:/Xilinx/13.1/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb.v" Line 42: Port threshold_out is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component.v" Line 39: Port ce is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component.v" Line 57: Port ready_threshold is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb.v" Line 50: Size mismatch in connection of port <present_nextcount>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1016 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_component.v" Line 82: Port data_count is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_component.v" Line 98: Port data_count is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_component.v" Line 116: Port phase_out is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_component.v" Line 120: Size mismatch in connection of port <ce>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb.v" Line 52: Size mismatch in connection of port <rate>. Formal port size is 9-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb.v" Line 53: Size mismatch in connection of port <strobe_fast>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1007 - "N:/O.40d/rtf/verilog/src/XilinxCoreLib/FIFO_GENERATOR_V8_1.v" Line 5283: Element index -1 into diff_count is out of bounds
+Completed static elaboration
+Fuse Memory Usage: 97832 KB
+Fuse CPU Usage: 826 ms
+Compiling module cs_mealyfsm
+Compiling module fifo_generator_v8_1_bhv_ver_ss(C...
+Compiling module fifo_generator_v8_1_bhv_ver_prel...
+Compiling module FIFO_GENERATOR_V8_1_CONV_VER(C_C...
+Compiling module FIFO_GENERATOR_V8_1(C_COMMON_CLO...
+Compiling module fifo_in
+Compiling module VCC
+Compiling module GND
+Compiling module INV
+Compiling module LUT4(INIT=16'b1101001001011010)
+Compiling module LUT3(INIT=8'b11100110)
+Compiling module LUT1(INIT=2'b10)
+Compiling module LUT2(INIT=4'b1001)
+Compiling module XORCY
+Compiling module MUXCY
+Compiling module FDRE
+Compiling module cordic_in
+Compiling module v_multipliers_7a
+Compiling module comparator_component
+Compiling module cs_datapath(threshold_val=256,th...
+Compiling module cs_component
+Compiling module cic_strober
+Compiling module cs_component_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 21 sub-compilation(s) to finish...
+Compiled 33 Verilog Units
+Built simulation executable C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb_isim_beh.exe
+Fuse Memory Usage: 104084 KB
+Fuse CPU Usage: 1621 ms

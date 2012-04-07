@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/build-N210R3/u2plus.xst" -ofn "/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/build-N210R3/u2plus.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -sd ../../../extramfifo -nt timestamp -uc /home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/u2plus.ucf -p xc3sd3400a-fg676-5 u2plus.ngc u2plus.ngd  
+map -intstyle ise -p xc3sd3400a-fg676-5 -timing -logic_opt on -ol high -xe n -t 1 -register_duplication on -cm speed -detail -ir off -ignore_keep_hierarchy -pr b -power off -o u2plus_map.ncd u2plus.ngd u2plus.pcf 
+par -w -intstyle ise -ol high -t 1 u2plus_map.ncd u2plus.ncd u2plus.pcf 
+trce -intstyle ise -e 10 -s 5 -n 3 -fastpaths -xml u2plus.twx u2plus.ncd -o u2plus.twr u2plus.pcf 
+bitgen -intstyle ise -f u2plus.ut u2plus.ncd 

@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/CRC16_D16.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/atr_controller.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/atr_controller16.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/bin2gray.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/bootram.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/dcache.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/decoder_3_8.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/dpram32.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/fifo_to_wb.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/gray2bin.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/gray_send.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/icache.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/longfifo.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/medfifo.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/mux4.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/mux8.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/nsgpio.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/nsgpio16LE.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/oneshot_2clk.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/pic.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/priority_enc.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/quad_uart.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/ram_2port.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/ram_harv_cache.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/ram_harvard.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/ram_harvard2.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/ram_loader.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/reset_sync.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/s3a_icap_wb.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/sd_spi.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/sd_spi_wb.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/setting_reg.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/settings_bus.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/settings_bus_16LE.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/settings_bus_crossclock.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/shortfifo.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/simple_uart.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/simple_uart_rx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/simple_uart_tx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/srl.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/system_control.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/wb_1master.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/wb_bridge_16_32.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/wb_readback_mux.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/control_lib/wb_readback_mux_16LE.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/coregen/fifo_xlnx_16x19_2clk.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/coregen/fifo_xlnx_16x40_2clk.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/coregen/fifo_xlnx_2Kx36_2clk.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/coregen/fifo_xlnx_32x36_2clk.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/coregen/fifo_xlnx_512x36_2clk.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/coregen/fifo_xlnx_512x36_2clk_18to36.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/coregen/fifo_xlnx_512x36_2clk_36to18.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/coregen/fifo_xlnx_512x36_2clk_prog_full.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/coregen/fifo_xlnx_64x36_2clk.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/buffer_int.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/buffer_int2.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/buffer_pool.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/crossbar36.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/dsp_framer36.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo19_mux.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo19_pad.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo19_to_fifo36.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo19_to_ll8.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo36_demux.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo36_mux.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo36_to_fifo19.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo36_to_ll8.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo_2clock.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo_2clock_cascade.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo_cascade.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo_long.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo_pacer.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/fifo_short.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/ll8_shortfifo.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/ll8_to_fifo19.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/ll8_to_fifo36.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/packet_dispatcher36_x3.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/packet_generator.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/packet_generator32.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/packet_router.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/packet_verifier.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/packet_verifier32.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/splitter36.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/fifo/valve36.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/gpmc/cross_clock_reader.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/gpmc/fifo_to_gpmc.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/gpmc/gpmc.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/gpmc/gpmc_to_fifo.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/gpmc/gpmc_wb.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/8b10b/decode_8b10b.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/8b10b/encode_8b10b.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/aemb/rtl/verilog/aeMB_bpcu.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/aemb/rtl/verilog/aeMB_core_BE.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/aemb/rtl/verilog/aeMB_ctrl.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/aemb/rtl/verilog/aeMB_edk32.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/aemb/rtl/verilog/aeMB_ibuf.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/aemb/rtl/verilog/aeMB_regf.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/aemb/rtl/verilog/aeMB_xecu.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_bit_ctrl.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_bit_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">128</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/timescale.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_bit_ctrl.v&quot; line 128
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_bit_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">131</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_bit_ctrl.v&quot; line 131
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_byte_ctrl.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_byte_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">70</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/timescale.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_byte_ctrl.v&quot; line 70
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_byte_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_byte_ctrl.v&quot; line 73
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_top.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_top.v</arg>&quot; Line <arg fmt="%d" index="2">74</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/timescale.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_top.v&quot; line 74
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_top.v</arg>&quot; Line <arg fmt="%d" index="2">77</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_top.v&quot; line 77
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_clgen.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_clgen.v</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_clgen.v&quot; line 41
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_shift.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_shift.v</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_shift.v&quot; line 41
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top.v</arg>&quot; Line <arg fmt="%d" index="2">45</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top.v&quot; line 45
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top16.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top16.v</arg>&quot; Line <arg fmt="%d" index="2">46</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top16.v&quot; line 46
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpu_config.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpu_core.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpupkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/wishbone_pkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/zpu_system.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/zpu_wb_bridge.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/zpu/zpu_top_pkg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/zpu/zpu_wb_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/acc.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/add2.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/add2_and_clip.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/add2_and_clip_reg.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/add2_and_round.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/add2_and_round_reg.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/add2_reg.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/cic_dec_shifter.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/cic_decim.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/cic_int_shifter.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/cic_interp.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/cic_strober.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/clip.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/clip_reg.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/cordic.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/cordic_stage.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/cordic_z24.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/dsp_core_rx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/dsp_core_tx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/hb_dec.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/hb_interp.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/round.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/round_reg.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/round_sd.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/rx_dcoffset.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/rx_frontend.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/sign_extend.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/small_hb_dec.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/small_hb_int.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/sdr_lib/tx_frontend.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/serdes/serdes.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/serdes/serdes_fc_rx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/serdes/serdes_fc_tx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/serdes/serdes_rx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/serdes/serdes_tx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/address_filter.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/address_filter_promisc.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/crc.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/delay_line.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/ethrx_realign.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/ethtx_realign.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/flow_ctrl_rx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/flow_ctrl_tx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/ll8_to_txmac.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/miim/eth_clockgen.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/miim/eth_miim.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/miim/eth_outputcontrol.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/miim/eth_shiftreg.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/rxmac_to_ll8.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/simple_gemac.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/simple_gemac_rx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/simple_gemac_tx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/simple_gemac_wb.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/simple_gemac/simple_gemac_wrapper.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/timing/simple_timer.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/timing/time_64bit.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/timing/time_compare.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/timing/time_receiver.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/timing/time_sender.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/timing/time_sync.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/timing/timer.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/accumulator_in_xst.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_component.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_fsm.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/comparator_component.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/u1e.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/u1e_core.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/udp/add_onescomp.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/udp/fifo19_rxrealign.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/udp/prot_eng_tx.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/udp/udp_wrapper.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/vrt/gen_context_pkt.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/vrt/trigger_context_pkt.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/vrt/vita_pkt_gen.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/vrt/vita_rx_chain.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/vrt/vita_rx_control.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/vrt/vita_rx_framer.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/vrt/vita_tx_chain.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/vrt/vita_tx_control.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/vrt/vita_tx_deframer.v\&quot; into library work</arg>
+</msg>
+
+</messages>
+

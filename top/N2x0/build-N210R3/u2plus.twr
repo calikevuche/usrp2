@@ -1,0 +1,191 @@
+--------------------------------------------------------------------------------
+Release 13.2 Trace  (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+/data/Xilinx/13.2/ISE_DS/ISE/bin/lin/unwrapped/trce -intstyle ise -e 10 -s 5 -n
+3 -fastpaths -xml u2plus.twx u2plus.ncd -o u2plus.twr u2plus.pcf
+
+Design file:              u2plus.ncd
+Physical constraint file: u2plus.pcf
+Device,package,speed:     xc3sd3400a,fg676,-5 (PRODUCTION 1.34 2011-06-20)
+Report level:             error report, limited to 10 items per endpoint, 3 endpoints per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: TS_clk_to_mac = PERIOD TIMEGRP "clk_to_mac" 8 ns HIGH 50%;
+
+ 6833 paths analyzed, 1146 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   7.778ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk_fpga_p = PERIOD TIMEGRP "clk_fpga_p" 10 ns HIGH 50%;
+
+ 6 paths analyzed, 6 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.096ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_GMII_RX_CLK = PERIOD TIMEGRP "GMII_RX_CLK" 8 ns HIGH 50%;
+
+ 4988 paths analyzed, 1306 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   7.955ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_ser_rx_clk = PERIOD TIMEGRP "ser_rx_clk" 10 ns HIGH 50%;
+
+ 4409 paths analyzed, 783 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   9.171ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk_div_to_dsp_clk = MAXDELAY FROM TIMEGRP "clk_div" TO 
+TIMEGRP "dcm_out"         10 ns;
+
+ 10260 paths analyzed, 10256 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   9.036ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_dcm_out = PERIOD TIMEGRP "dcm_out" TS_clk_fpga_p HIGH 
+50%;
+
+ 1314425 paths analyzed, 73607 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   9.962ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk270_100 = PERIOD TIMEGRP "clk270_100" TS_clk_fpga_p 
+PHASE 7.5 ns HIGH         50%;
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.248ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk_div = PERIOD TIMEGRP "clk_div" TS_clk_fpga_p * 2 HIGH 
+50%;
+
+ 720870 paths analyzed, 11168 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  19.366ns.
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_clk_fpga_p
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_clk_fpga_p                  |     10.000ns|      6.096ns|      9.962ns|            0|            0|            6|      2035295|
+| TS_dcm_out                    |     10.000ns|      9.962ns|          N/A|            0|            0|      1314425|            0|
+| TS_clk270_100                 |     10.000ns|      1.248ns|          N/A|            0|            0|            0|            0|
+| TS_clk_div                    |     20.000ns|     19.366ns|          N/A|            0|            0|       720870|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK_FPGA_N
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_FPGA_N     |   17.335|    3.873|    4.837|         |
+CLK_FPGA_P     |   17.335|    3.873|    4.837|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK_FPGA_P
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_FPGA_N     |   17.335|    3.873|    4.837|         |
+CLK_FPGA_P     |   17.335|    3.873|    4.837|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock CLK_TO_MAC
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_TO_MAC     |    7.778|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock GMII_RX_CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+GMII_RX_CLK    |    7.955|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ser_rx_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ser_rx_clk     |    9.171|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 2061791 paths, 0 nets, and 144930 connections
+
+Design statistics:
+   Minimum period:  19.366ns   (Maximum frequency:  51.637MHz)
+   Maximum path delay from/to any node:   9.036ns
+
+
+Analysis completed Wed Oct 26 06:44:14 2011 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 510 MB
+
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_fpga_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_fpga_p</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">DCM_SP</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_dcm_out = PERIOD &quot;dcm_out&quot; TS_clk_fpga_p HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_fpga_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_fpga_p</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">DCM_SP</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLK270</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clk270_100 = PERIOD &quot;clk270_100&quot; TS_clk_fpga_p PHASE 7.5 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">clk_fpga_p</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_fpga_p</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">DCM_SP</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLKDV</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clk_div = PERIOD &quot;clk_div&quot; TS_clk_fpga_p * 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="NgdBuild" num="1222" delta="new" >Setting <arg fmt="%s" index="1">CLKIN_PERIOD</arg> attribute associated with <arg fmt="%s" index="2">DCM</arg> instance <arg fmt="%s" index="3">DCM_SP</arg> to <arg fmt="%s" index="4">10.000000</arg> ns based on the period specification (<arg fmt="%s" index="5">&lt;TIMESPEC &quot;TS_clk_fpga_p&quot; = PERIOD &quot;clk_fpga_p&quot; 10 ns HIGH 50 %;&gt; [/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/u2plus.ucf(408)]</arg>).
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="new" >Attribute &quot;<arg fmt="%s" index="1">DOA_REG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16_S36_S36</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="486" delta="new" >Attribute &quot;<arg fmt="%s" index="1">DOB_REG</arg>&quot; is not allowed on symbol &quot;<arg fmt="%s" index="2">U0/grf.rf/mem/gbm.gbmg.gbmga.ngecc.bmg/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/dpram.dp36x36.ram</arg>&quot; of type &quot;<arg fmt="%s" index="3">RAMB16_S36_S36</arg>&quot;.  This attribute will be ignored.
+</msg>
+
+</messages>
+

@@ -1,0 +1,25 @@
+Release 13.1 - par O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Thu Feb 16 10:35:54 2012
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 13 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   EM_NCS5_IBUF
+   EM_WAIT0_IBUF
+   RXSYNC_IBUF
+   overo_gpio0_IBUF
+   overo_gpio127_IBUF
+   overo_gpio14_IBUF
+   overo_gpio163_IBUF
+   overo_gpio170_IBUF
+   overo_gpio176_IBUF
+   overo_gpio21_IBUF
+   overo_gpio22_IBUF
+   overo_gpio23_IBUF
+   overo_gpio64_IBUF
+
+

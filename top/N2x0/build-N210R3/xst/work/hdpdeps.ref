@@ -1,0 +1,58 @@
+V3 34
+FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpupkg.vhd 2011/10/26.04:50:42 O.61xd
+PH work/zpupkg 1319604587 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpupkg.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/std_logic_arith 1308643378 \
+      PH work/zpu_config 1319604586 CD dualport_ram CD dram CD trace CD zpu_core \
+      CD timer CD zpuio
+FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpu_config.vhd 2011/10/26.04:50:42 O.61xd
+PH work/zpu_config 1319604586 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpu_config.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/STD_LOGIC_UNSIGNED 1308643379
+FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpu_core.vhd 2011/10/26.04:50:42 O.61xd
+EN work/zpu_core 1319604590 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpu_core.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/STD_LOGIC_UNSIGNED 1308643379 \
+      PB ieee/std_logic_arith 1308643378 PH work/zpu_config 1319604586 \
+      PH work/zpupkg 1319604587
+AR work/zpu_core/behave 1319604591 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/core/zpu_core.vhd \
+      EN work/zpu_core 1319604590 CP trace
+FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/wishbone_pkg.vhd 2011/10/26.04:50:42 O.61xd
+PH work/wishbone_pkg 1319604588 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/wishbone_pkg.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/STD_LOGIC_UNSIGNED 1308643379 \
+      CD atomic32_access CD eth_access_corr
+FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/zpu_system.vhd 2011/10/26.04:50:42 O.61xd
+EN work/zpu_system 1319604594 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/zpu_system.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/STD_LOGIC_UNSIGNED 1308643379 \
+      PH work/zpu_top_pkg 1319604589 PH work/wishbone_pkg 1319604588 \
+      PH work/zpupkg 1319604587 PH work/zpu_config 1319604586
+AR work/zpu_system/behave 1319604595 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/zpu_system.vhd \
+      EN work/zpu_system 1319604594 CP zpu_core CP zpu_wb_bridge
+FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/zpu_wb_bridge.vhd 2011/10/26.04:50:42 O.61xd
+EN work/zpu_wb_bridge 1319604592 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/zpu_wb_bridge.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/STD_LOGIC_UNSIGNED 1308643379 \
+      PH work/zpu_top_pkg 1319604589 PH work/wishbone_pkg 1319604588 \
+      PH work/zpupkg 1319604587 PH work/zpu_config 1319604586
+AR work/zpu_wb_bridge/behave 1319604593 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/wishbone/zpu_wb_bridge.vhd \
+      EN work/zpu_wb_bridge 1319604592
+FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/zpu_top_pkg.vhd 2011/10/26.04:50:42 O.61xd
+PH work/zpu_top_pkg 1319604589 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/zpu_top_pkg.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/STD_LOGIC_UNSIGNED 1308643379 \
+      PH work/zpupkg 1319604587 PH work/zpu_config 1319604586 PH work/wishbone_pkg 1319604588 \
+      CD zpu_wb_bridge CD zpu_system
+FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/zpu_wb_top.vhd 2011/10/26.04:50:42 O.61xd
+EN work/zpu_wb_top 1319604596 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/zpu_wb_top.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/STD_LOGIC_UNSIGNED 1308643379 \
+      PH work/zpu_top_pkg 1319604589 PH work/wishbone_pkg 1319604588 \
+      PH work/zpupkg 1319604587 PH work/zpu_config 1319604586
+AR work/zpu_wb_top/syn 1319604597 \
+      FL /home/nodeuser/UHD-Mirror/fpga/usrp2/opencores/zpu/zpu_wb_top.vhd \
+      EN work/zpu_wb_top 1319604596 CP zpu_system

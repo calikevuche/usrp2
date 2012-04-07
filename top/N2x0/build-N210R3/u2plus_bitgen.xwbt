@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/build-N210R3/u2plus.ncd
+OUTFILE=/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/build-N210R3/u2plus.bit
+FAMILY=Spartan-3A DSP
+PART=xc3sd3400a-5fg676
+WORKINGDIR=/home/nodeuser/UHD-Mirror/fpga/usrp2/top/N2x0/build-N210R3
+LICENSE=ISE
+USER_INFO=179407179_205625197_206270000_529

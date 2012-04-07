@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pn" timeStamp="Thu Feb 16 10:25:47 2012">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="AA4DB719D429B411E772CF8B3F1AD1AE" type="project"/>
+<property name="ProjectIteration" value="26" type="project"/>
+<property name="ProjectFile" value="C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/u1e.xise" type="project"/>
+<property name="ProjectCreationTimestamp" value="2012-01-17T18:17:55" type="project"/>
+</section>
+<section name="Project Statistics" visible="true">
+<property name="PROPEXT_xilxSynthAddBufg_spartan3e" value="8" type="process"/>
+<property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
+<property name="PROP_FitterReportFormat" value="HTML" type="process"/>
+<property name="PROP_LastAppliedGoal" value="Balanced" type="design"/>
+<property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
+<property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
+<property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
+<property name="PROP_SelectedInstanceHierarchicalPath" value="/cs_component_tb/uut" type="process"/>
+<property name="PROP_Simulator" value="ISim (VHDL/Verilog)" type="design"/>
+<property name="PROP_SynthOptEffort" value="High" type="process"/>
+<property name="PROP_SynthTopFile" value="changed" type="process"/>
+<property name="PROP_Top_Level_Module_Type" value="HDL" type="design"/>
+<property name="PROP_UseSmartGuide" value="false" type="design"/>
+<property name="PROP_UserConstraintEditorPreference" value="Constraints Editor" type="process"/>
+<property name="PROP_intProjectCreationTimestamp" value="2012-01-17T18:17:55" type="design"/>
+<property name="PROP_intWbtProjectID" value="AA4DB719D429B411E772CF8B3F1AD1AE" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="26" type="process"/>
+<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
+<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.cs_component" type="process"/>
+<property name="PROP_xilxBitgCfg_GenOpt_Compress" value="true" type="process"/>
+<property name="PROP_xilxBitgCfg_Unused" value="Pull Up" type="process"/>
+<property name="PROP_xilxBitgStart_Clk_Done" value="5" type="process"/>
+<property name="PROP_xilxBitgStart_Clk_EnOut" value="6" type="process"/>
+<property name="PROP_xilxMapAllowLogicOpt" value="true" type="process"/>
+<property name="PROP_xilxMapCoverMode" value="Speed" type="process"/>
+<property name="PROP_xilxMapPackRegInto" value="For Inputs and Outputs" type="process"/>
+<property name="PROP_xilxMapReportDetail" value="true" type="process"/>
+<property name="PROP_xilxMapTimingDrivenPacking" value="true" type="process"/>
+<property name="PROP_xilxNgdbldMacro" value="changed" type="process"/>
+<property name="PROP_xilxPostTrceRpt" value="Error Report" type="process"/>
+<property name="PROP_xilxPostTrceRptLimit" value="10" type="process"/>
+<property name="PROP_xilxSynthRegBalancing" value="Yes" type="process"/>
+<property name="PROP_xstOptimizeInsPrimtives" value="true" type="process"/>
+<property name="PROP_xstPackIORegister" value="Yes" type="process"/>
+<property name="PROP_xstUseClockEnable" value="Auto" type="process"/>
+<property name="PROP_xstUseSyncReset" value="Auto" type="process"/>
+<property name="PROP_xstUseSyncSet" value="Auto" type="process"/>
+<property name="PROP_AutoTop" value="false" type="design"/>
+<property name="PROP_DevFamily" value="Spartan-3A DSP" type="design"/>
+<property name="PROP_MapLogicOptimization" value="true" type="process"/>
+<property name="PROP_MapRegDuplication" value="On" type="process"/>
+<property name="PROP_xilxBitgCfg_GenOpt_BinaryFile" value="true" type="process"/>
+<property name="PROP_DevDevice" value="xc3sd1800a" type="design"/>
+<property name="PROP_DevFamilyPMName" value="spartan3adsp" type="design"/>
+<property name="PROP_MapExtraEffort" value="Normal" type="process"/>
+<property name="PROP_DevPackage" value="cs484" type="design"/>
+<property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
+<property name="PROP_DevSpeed" value="-4" type="design"/>
+<property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
+<property name="FILE_CDC" value="1" type="source"/>
+<property name="FILE_COREGEN" value="11" type="source"/>
+<property name="FILE_UCF" value="2" type="source"/>
+<property name="FILE_VERILOG" value="187" type="source"/>
+<property name="FILE_VHDL" value="8" type="source"/>
+</section>
+</application>
+</document>

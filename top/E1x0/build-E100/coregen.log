@@ -1,0 +1,13 @@
+CoreGen has not been configured with any user repositories.
+CoreGen has been configured with the following Xilinx repositories:
+ - 'C:\Xilinx\13.1\ISE_DS\ISE\coregen\' []
+INFO:sim:927 - Generating component instance 'fifo_in' of
+   'xilinx.com:ip:fifo_generator:8.1' from
+   'C:\Xilinx\13.1\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\fifo_gener
+   ator_v8_1\component.xml'.
+Applying current project options...
+Finished applying current project options.
+Executing Tcl generator...
+Cancelled executing Tcl generator.
+Wrote file for project
+'C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\top\E1x0\build-E100\fifo_in.cgp'.

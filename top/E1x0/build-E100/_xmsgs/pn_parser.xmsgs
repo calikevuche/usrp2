@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_bit_ctrl.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_bit_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">131</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_bit_ctrl.v&quot; line 131
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_byte_ctrl.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_byte_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_byte_ctrl.v&quot; line 73
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_top.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_top.v</arg>&quot; Line <arg fmt="%d" index="2">77</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/i2c/rtl/verilog/i2c_master_top.v&quot; line 77
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_clgen.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_clgen.v</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_clgen.v&quot; line 41
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_shift.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_shift.v</arg>&quot; Line <arg fmt="%d" index="2">41</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_shift.v&quot; line 41
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top.v</arg>&quot; Line <arg fmt="%d" index="2">45</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top.v&quot; line 45
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top16.v\&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top16.v</arg>&quot; Line <arg fmt="%d" index="2">46</arg>. <arg fmt="%s" index="3">Include file found: &apos;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_defines.v&apos; in file &quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/opencores/spi/rtl/verilog/spi_top16.v&quot; line 46
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component.v\&quot; into library work</arg>
+</msg>
+
+</messages>
+

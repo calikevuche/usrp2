@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="u1e" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/aeMB_core_BE C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|opencores|aemb|rtl|verilog|aeMB_core_BE.v</ClosedNode>
+         <ClosedNode>/buffer_pool C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|buffer_pool.v</ClosedNode>
+         <ClosedNode>/cordic C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|sdr_lib|cordic.v</ClosedNode>
+         <ClosedNode>/fifo19_mux C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|fifo19_mux.v</ClosedNode>
+         <ClosedNode>/fifo_pacer C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|fifo_pacer.v</ClosedNode>
+         <ClosedNode>/fifo_to_wb C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|fifo_to_wb.v</ClosedNode>
+         <ClosedNode>/gray_send C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|gray_send.v</ClosedNode>
+         <ClosedNode>/longfifo C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|longfifo.v</ClosedNode>
+         <ClosedNode>/packet_generator32 C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|packet_generator32.v</ClosedNode>
+         <ClosedNode>/packet_router C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|packet_router.v</ClosedNode>
+         <ClosedNode>/packet_verifier32 C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|packet_verifier32.v</ClosedNode>
+         <ClosedNode>/pic C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|pic.v</ClosedNode>
+         <ClosedNode>/quad_uart C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|quad_uart.v</ClosedNode>
+         <ClosedNode>/ram_harv_cache C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|ram_harv_cache.v</ClosedNode>
+         <ClosedNode>/ram_harvard C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|ram_harvard.v</ClosedNode>
+         <ClosedNode>/ram_loader C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|ram_loader.v</ClosedNode>
+         <ClosedNode>/sd_spi_wb C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|sd_spi_wb.v</ClosedNode>
+         <ClosedNode>/serdes C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|serdes|serdes.v</ClosedNode>
+         <ClosedNode>/settings_bus_crossclock C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|settings_bus_crossclock.v</ClosedNode>
+         <ClosedNode>/simple_gemac_wrapper C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|simple_gemac|simple_gemac_wrapper.v</ClosedNode>
+         <ClosedNode>/spi_top C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|opencores|spi|rtl|verilog|spi_top.v</ClosedNode>
+         <ClosedNode>/time_sync C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|timing|time_sync.v</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/clip_i - clip_reg</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/clip_q - clip_reg</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/cordic - cordic_z24</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/decim_i - cic_decim</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/decim_q - cic_decim</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/hb_i - hb_dec</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/hb_q - hb_dec</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/round_i - round_sd</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/round_q - round_sd</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/small_hb_i - small_hb_dec</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx0 - dsp_core_rx/small_hb_q - small_hb_dec</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/dsp_core_rx1 - dsp_core_rx</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/err_fifo - fifo_cascade</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/fifo_to_wb - buffer_int2</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/gpmc - gpmc</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/i2c - i2c_master_top</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/mux_data_streams - fifo36_mux</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/rx_frontend - rx_frontend</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/shared_spi - spi_top16</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/time_64bit - time_64bit</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/tx_frontend - tx_frontend</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/uart - simple_uart</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_rx_chain0 - vita_rx_chain/dsp0_framer36 - dsp_framer36</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_rx_chain0 - vita_rx_chain/vita_rx_framer - vita_rx_framer</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_rx_chain1 - vita_rx_chain</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_tx_chain - vita_tx_chain/dsp_core_tx - dsp_core_tx</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_tx_chain - vita_tx_chain/gen_flow_pkt - gen_context_pkt</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_tx_chain - vita_tx_chain/gen_tx_err_pkt - gen_context_pkt</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_tx_chain - vita_tx_chain/mux_err_and_flow - fifo36_mux</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_tx_chain - vita_tx_chain/trigger_context_pkt - trigger_context_pkt</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_tx_chain - vita_tx_chain/vita_tx_control - vita_tx_control</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v/u1e_core - u1e_core/vita_tx_chain - vita_tx_chain/vita_tx_deframer - vita_tx_deframer</ClosedNode>
+         <ClosedNode>/udp_wrapper C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|udp|udp_wrapper.v</ClosedNode>
+         <ClosedNode>/zpu_wb_top - syn C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|opencores|zpu|zpu_wb_top.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uut1 - cs_mealyfsm (C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_fsm.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >58</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000038c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000038c0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>uut1 - cs_mealyfsm (C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/average_fsm.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000036d000000040101000100000000000000000000000064ffffffff000000810000000000000004000001d60000000100000000000000d700000001000000000000006600000001000000000000005a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\control_lib\atr_controller.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_CDC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>CORE Generator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>CORE Generator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>CORE Generator</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/aeMB_core_BE C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|opencores|aemb|rtl|verilog|aeMB_core_BE.v</ClosedNode>
+         <ClosedNode>/buffer_pool C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|buffer_pool.v</ClosedNode>
+         <ClosedNode>/cordic C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|sdr_lib|cordic.v</ClosedNode>
+         <ClosedNode>/fifo19_mux C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|fifo19_mux.v</ClosedNode>
+         <ClosedNode>/fifo_pacer C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|fifo_pacer.v</ClosedNode>
+         <ClosedNode>/fifo_to_wb C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|fifo_to_wb.v</ClosedNode>
+         <ClosedNode>/fifo_xlnx_16x19_2clk C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|coregen|fifo_xlnx_16x19_2clk.v</ClosedNode>
+         <ClosedNode>/fifo_xlnx_16x40_2clk C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|coregen|fifo_xlnx_16x40_2clk.v</ClosedNode>
+         <ClosedNode>/fifo_xlnx_2Kx36_2clk C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|coregen|fifo_xlnx_2Kx36_2clk.v</ClosedNode>
+         <ClosedNode>/fifo_xlnx_512x36_2clk C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|coregen|fifo_xlnx_512x36_2clk.v</ClosedNode>
+         <ClosedNode>/fifo_xlnx_512x36_2clk_18to36 C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|coregen|fifo_xlnx_512x36_2clk_18to36.v</ClosedNode>
+         <ClosedNode>/fifo_xlnx_512x36_2clk_36to18 C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|coregen|fifo_xlnx_512x36_2clk_36to18.v</ClosedNode>
+         <ClosedNode>/fifo_xlnx_512x36_2clk_prog_full C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|coregen|fifo_xlnx_512x36_2clk_prog_full.v</ClosedNode>
+         <ClosedNode>/fifo_xlnx_64x36_2clk C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|coregen|fifo_xlnx_64x36_2clk.v</ClosedNode>
+         <ClosedNode>/gray_send C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|gray_send.v</ClosedNode>
+         <ClosedNode>/longfifo C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|longfifo.v</ClosedNode>
+         <ClosedNode>/packet_generator32 C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|packet_generator32.v</ClosedNode>
+         <ClosedNode>/packet_router C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|packet_router.v</ClosedNode>
+         <ClosedNode>/packet_verifier32 C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|fifo|packet_verifier32.v</ClosedNode>
+         <ClosedNode>/pic C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|pic.v</ClosedNode>
+         <ClosedNode>/quad_uart C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|quad_uart.v</ClosedNode>
+         <ClosedNode>/ram_harv_cache C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|ram_harv_cache.v</ClosedNode>
+         <ClosedNode>/ram_harvard C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|ram_harvard.v</ClosedNode>
+         <ClosedNode>/ram_loader C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|ram_loader.v</ClosedNode>
+         <ClosedNode>/sd_spi_wb C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|sd_spi_wb.v</ClosedNode>
+         <ClosedNode>/serdes C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|serdes|serdes.v</ClosedNode>
+         <ClosedNode>/settings_bus_crossclock C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|control_lib|settings_bus_crossclock.v</ClosedNode>
+         <ClosedNode>/simple_gemac_wrapper C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|simple_gemac|simple_gemac_wrapper.v</ClosedNode>
+         <ClosedNode>/spi_top C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|opencores|spi|rtl|verilog|spi_top.v</ClosedNode>
+         <ClosedNode>/time_sync C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|timing|time_sync.v</ClosedNode>
+         <ClosedNode>/u1e C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|top|E1x0|u1e.v</ClosedNode>
+         <ClosedNode>/udp_wrapper C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|udp|udp_wrapper.v</ClosedNode>
+         <ClosedNode>/zpu_wb_top - syn C:|UHD-MirrorE100|UHD-Mirror|fpga|usrp2|opencores|zpu|zpu_wb_top.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uut - cs_component (C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >4</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000378000000020000000000000000000000000200000064ffffffff000000810000000300000002000003780000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>uut - cs_component (C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000017d000000010000000100000000000000000000000064ffffffff0000008100000000000000010000017d0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\top\E1x0\build-E100\u1e.ncd
+OUTFILE=C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\top\E1x0\build-E100\u1e.bit
+FAMILY=Spartan-3A DSP
+PART=xc3sd1800a-4cs484
+WORKINGDIR=C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\top\E1x0\build-E100
+LICENSE=ISE
+USER_INFO=179407179_205625197_206270000_268

@@ -1,0 +1,19 @@
+ISim log file
+Running: C:\UHD-MirrorE100\UHD-Mirror\fpga\usrp2\top\E1x0\build-E100\cs_component_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb_isim_beh.wdb 
+ISim O.40d (signature 0x79f3f3a8)
+This is a Full version of ISim.
+WARNING:  For instance uut2/u3_iq_mag/, width 1 of formal port ce is not equal to width 32 of actual constant.
+WARNING: File "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb.v" Line 39.  For instance cs_component_tb/uut/, width 32 of formal port present_nextcount is not equal to width 16 of actual signal present_nextcount.
+WARNING:  For instance cs_component_tb/cic_strober/, width 9 of formal port rate is not equal to width 32 of actual constant.
+WARNING:  For instance cs_component_tb/cic_strober/, width 1 of formal port strobe_fast is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 2633262268 ps : File "C:/UHD-MirrorE100/UHD-Mirror/fpga/usrp2/top/E1x0/build-E100/cs_component_tb.v" Line 74
